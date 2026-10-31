@@ -553,7 +553,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+
 
 
 
@@ -564,6 +564,7 @@ chmod 755 strcomp.sh
 ## OUTPUT
 
 
+<img width="777" height="65" alt="Screenshot 2026-10-30 110026" src="https://github.com/user-attachments/assets/5ad8b09e-90ff-4845-9901-6b8708fd4e79" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -590,7 +591,9 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-<img width="610" height="47" alt="Screenshot 2026-10-30 104832" src="https://github.com/user-attachments/assets/f8e88bad-dc9c-407c-bbbb-98d09d44f4c9" />
+<img width="675" height="40" alt="Screenshot 2026-10-30 110533" src="https://github.com/user-attachments/assets/ef599271-0190-490b-b0f9-d1afb5f3bb04" />
+
+
 
 
 # check if with file location
@@ -640,6 +643,7 @@ fi
 ## OUTPUT
 
 
+<img width="533" height="62" alt="Screenshot 2026-10-31 083957" src="https://github.com/user-attachments/assets/378dbb60-507d-439a-9b68-32785697953b" />
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -681,7 +685,10 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
 ##OUTPUT
+<img width="685" height="96" alt="Screenshot 2026-10-31 084413" src="https://github.com/user-attachments/assets/acc04753-7d70-44ff-b315-ca240f740002" />
+
 
 # check if a file
 cat > ifnested.sh 
