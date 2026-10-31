@@ -94,20 +94,17 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-<img width="566" height="67" alt="Screenshot 2026-10-29 104250" src="https://github.com/user-attachments/assets/40c9b7d5-3ae8-41f0-ba28-cc3b31eae177" />
-
-<img width="556" height="87" alt="Screenshot 2026-10-29 104308" src="https://github.com/user-attachments/assets/1de8a951-b8e7-42d9-a3ea-befbbb492635" />
-
+<img width="593" height="100" alt="Screenshot 2026-10-29 104318" src="https://github.com/user-attachments/assets/3420e30b-ae51-4ce1-bea0-b846a18cf687" />
 cut -d "|" -f 1 file22
 ## OUTPUT
-<img width="593" height="100" alt="Screenshot 2026-10-29 104318" src="https://github.com/user-attachments/assets/3420e30b-ae51-4ce1-bea0-b846a18cf687" />
 
 
+<img width="683" height="113" alt="Screenshot 2026-10-29 104327" src="https://github.com/user-attachments/assets/6e613f81-6b3c-4249-965e-50bf2f00d7ea" />
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
-<img width="683" height="113" alt="Screenshot 2026-10-29 104327" src="https://github.com/user-attachments/assets/6e613f81-6b3c-4249-965e-50bf2f00d7ea" />
+<img width="651" height="112" alt="Screenshot 2026-10-29 104334" src="https://github.com/user-attachments/assets/b7943241-9b41-4304-b80a-01b102abf367" />
 
 
 cat < newfile 
@@ -123,14 +120,14 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="635" height="50" alt="Screenshot 2026-10-29 104422" src="https://github.com/user-attachments/assets/71500054-8afd-4666-ac38-90ca7b7f20f8" />
 
-<img width="651" height="112" alt="Screenshot 2026-10-29 104334" src="https://github.com/user-attachments/assets/b7943241-9b41-4304-b80a-01b102abf367" />
 
 
 grep hello newfile 
 ## OUTPUT
 
-<img width="635" height="50" alt="Screenshot 2026-10-29 104422" src="https://github.com/user-attachments/assets/71500054-8afd-4666-ac38-90ca7b7f20f8" />
+
 
 
 
