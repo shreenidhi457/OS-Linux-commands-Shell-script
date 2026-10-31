@@ -509,7 +509,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 
-##OUTPUT
+## OUTPUT
 
 <img width="533" height="62" alt="Screenshot 2026-10-31 083957" src="https://github.com/user-attachments/assets/378dbb60-507d-439a-9b68-32785697953b" />
 
