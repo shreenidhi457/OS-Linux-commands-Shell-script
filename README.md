@@ -95,6 +95,7 @@ cut -c1-3 file11
 ## OUTPUT
 
 <img width="593" height="100" alt="Screenshot 2026-10-29 104318" src="https://github.com/user-attachments/assets/3420e30b-ae51-4ce1-bea0-b846a18cf687" />
+
 cut -d "|" -f 1 file22
 ## OUTPUT
 
