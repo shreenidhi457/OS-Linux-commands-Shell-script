@@ -52,22 +52,25 @@ cat < file2
 <img width="503" height="128" alt="Screenshot 2026-10-29 104120" src="https://github.com/user-attachments/assets/94b4dfcd-fa39-4a8a-9bda-d2bbcc9302ce" />
 
 # Comparing Files
-<img width="551" height="47" alt="Screenshot 2026-10-29 104145" src="https://github.com/user-attachments/assets/529c8b03-25c2-4624-9a36-b77b94907a22" />
+
 
 cmp file1 file2
 ## OUTPUT
- <img width="540" height="272" alt="Screenshot 2026-10-29 104155" src="https://github.com/user-attachments/assets/07b8377d-03fc-448b-b12e-87a401fc5af1" />
+<img width="551" height="47" alt="Screenshot 2026-10-29 104145" src="https://github.com/user-attachments/assets/529c8b03-25c2-4624-9a36-b77b94907a22" />
 
 
 comm file1 file2
  ## OUTPUT
+  <img width="540" height="272" alt="Screenshot 2026-10-29 104155" src="https://github.com/user-attachments/assets/07b8377d-03fc-448b-b12e-87a401fc5af1" />
 
- <img width="587" height="225" alt="Screenshot 2026-10-29 104233" src="https://github.com/user-attachments/assets/6bcf7f66-f69c-45ca-880f-6adccddb7273" />
+
 
 diff file1 file2
 ## OUTPUT
 
-<img width="566" height="67" alt="Screenshot 2026-10-29 104250" src="https://github.com/user-attachments/assets/40c9b7d5-3ae8-41f0-ba28-cc3b31eae177" />
+ <img width="587" height="225" alt="Screenshot 2026-10-29 104233" src="https://github.com/user-attachments/assets/6bcf7f66-f69c-45ca-880f-6adccddb7273" />
+
+
 
 #Filters
 
@@ -91,6 +94,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="566" height="67" alt="Screenshot 2026-10-29 104250" src="https://github.com/user-attachments/assets/40c9b7d5-3ae8-41f0-ba28-cc3b31eae177" />
 
 <img width="556" height="87" alt="Screenshot 2026-10-29 104308" src="https://github.com/user-attachments/assets/1de8a951-b8e7-42d9-a3ea-befbbb492635" />
 
