@@ -220,6 +220,7 @@ egrep '(^hello)' newfile
 
 egrep '(world$)' newfile 
 ## OUTPUT
+
 <img width="632" height="46" alt="Screenshot 2026-10-30 095144" src="https://github.com/user-attachments/assets/5ce1c4ea-4360-4ba7-95fe-5112d7687697" />
 
 
@@ -231,6 +232,7 @@ egrep '(World$)' newfile
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+
 <img width="503" height="45" alt="Screenshot 2026-10-30 095230" src="https://github.com/user-attachments/assets/3704e1d4-6f53-4606-8c9b-a00b9e9c8a36" />
 
 
@@ -247,6 +249,7 @@ egrep 'Linux.*world' newfile
 ## OUTPUT
 
 <img width="725" height="90" alt="Screenshot 2026-10-30 095412" src="https://github.com/user-attachments/assets/5338dda7-3c6b-4593-b4f9-fa3bad1b76d4" />
+
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
