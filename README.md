@@ -136,14 +136,15 @@ grep hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
-<img width="616" height="55" alt="Screenshot 2026-10-29 104538" src="https://github.com/user-attachments/assets/b4a5244c-7bc0-4086-be44-18eaa9e3c1a2" />
+<img width="620" height="45" alt="Screenshot 2026-10-29 104556" src="https://github.com/user-attachments/assets/ea57798b-20fb-4557-9e15-a8fb249d7b33" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-<img width="620" height="45" alt="Screenshot 2026-10-29 104556" src="https://github.com/user-attachments/assets/ea57798b-20fb-4557-9e15-a8fb249d7b33" />
+<img width="732" height="67" alt="Screenshot 2026-10-29 104604" src="https://github.com/user-attachments/assets/d3e5ea3d-638d-4e06-94b4-bf9cdc7a64d6" />
+
 
 
 
@@ -152,21 +153,20 @@ cat newfile | grep -i -c "hello"
 ## OUTPUT
 
 
+<img width="645" height="66" alt="Screenshot 2026-10-29 105346" src="https://github.com/user-attachments/assets/851c18c2-f493-46ee-8fc7-b02e54f646e6" />
 
-<img width="732" height="67" alt="Screenshot 2026-10-29 104604" src="https://github.com/user-attachments/assets/d3e5ea3d-638d-4e06-94b4-bf9cdc7a64d6" />
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
 
-<img width="645" height="66" alt="Screenshot 2026-10-29 105346" src="https://github.com/user-attachments/assets/851c18c2-f493-46ee-8fc7-b02e54f646e6" />
+<img width="738" height="76" alt="Screenshot 2026-10-29 105413" src="https://github.com/user-attachments/assets/4c852c69-f14b-4d36-9c7c-ebd1c3b1b816" />
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
-<img width="738" height="76" alt="Screenshot 2026-10-29 105413" src="https://github.com/user-attachments/assets/4c852c69-f14b-4d36-9c7c-ebd1c3b1b816" />
+<img width="653" height="62" alt="Screenshot 2026-10-29 105836" src="https://github.com/user-attachments/assets/15c8e0f4-fe71-4fa0-9532-89049507f595" />
 
 
 cat < newfile 
@@ -191,71 +191,71 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-<img width="653" height="62" alt="Screenshot 2026-10-29 105836" src="https://github.com/user-attachments/assets/15c8e0f4-fe71-4fa0-9532-89049507f595" />
+<img width="702" height="60" alt="Screenshot 2026-10-29 105848" src="https://github.com/user-attachments/assets/41687b59-10f5-41b8-b5a9-32ce567130c4" />
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
 
-<img width="702" height="60" alt="Screenshot 2026-10-29 105848" src="https://github.com/user-attachments/assets/41687b59-10f5-41b8-b5a9-32ce567130c4" />
-
+<img width="595" height="35" alt="Screenshot 2026-10-29 105854" src="https://github.com/user-attachments/assets/3326fca7-76a9-48dc-8ae8-80f43dd0793e" />
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
-<img width="595" height="35" alt="Screenshot 2026-10-29 105854" src="https://github.com/user-attachments/assets/3326fca7-76a9-48dc-8ae8-80f43dd0793e" />
-
-
-
-egrep '(^hello)' newfile 
-## OUTPUT
 <img width="635" height="63" alt="Screenshot 2026-10-29 105857" src="https://github.com/user-attachments/assets/6951ff50-8914-4357-a7f6-5a52dd31a864" />
 
 
 
 
-egrep '(world$)' newfile 
+
+
+egrep '(^hello)' newfile 
 ## OUTPUT
+
 <img width="730" height="102" alt="Screenshot 2026-10-30 095056" src="https://github.com/user-attachments/assets/50d1cd98-5edf-4ee3-8417-ec7186e19936" />
 
 
+
+egrep '(world$)' newfile 
+## OUTPUT
+<img width="632" height="46" alt="Screenshot 2026-10-30 095144" src="https://github.com/user-attachments/assets/5ce1c4ea-4360-4ba7-95fe-5112d7687697" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
-<img width="632" height="46" alt="Screenshot 2026-10-30 095144" src="https://github.com/user-attachments/assets/5ce1c4ea-4360-4ba7-95fe-5112d7687697" />
 
+<img width="716" height="45" alt="Screenshot 2026-10-30 095203" src="https://github.com/user-attachments/assets/65a8b763-7431-41f1-9df0-be26716efa2d" />
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="503" height="45" alt="Screenshot 2026-10-30 095230" src="https://github.com/user-attachments/assets/3704e1d4-6f53-4606-8c9b-a00b9e9c8a36" />
 
 
-<img width="716" height="45" alt="Screenshot 2026-10-30 095203" src="https://github.com/user-attachments/assets/65a8b763-7431-41f1-9df0-be26716efa2d" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-<img width="503" height="45" alt="Screenshot 2026-10-30 095230" src="https://github.com/user-attachments/assets/3704e1d4-6f53-4606-8c9b-a00b9e9c8a36" />
 
+
+<img width="575" height="70" alt="Screenshot 2026-10-30 095254" src="https://github.com/user-attachments/assets/79060978-f772-411b-a0e5-319b605cd809" />
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-<img width="575" height="70" alt="Screenshot 2026-10-30 095254" src="https://github.com/user-attachments/assets/79060978-f772-411b-a0e5-319b605cd809" />
-
+<img width="725" height="90" alt="Screenshot 2026-10-30 095412" src="https://github.com/user-attachments/assets/5338dda7-3c6b-4593-b4f9-fa3bad1b76d4" />
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-<img width="725" height="90" alt="Screenshot 2026-10-30 095412" src="https://github.com/user-attachments/assets/5338dda7-3c6b-4593-b4f9-fa3bad1b76d4" />
+<img width="626" height="51" alt="Screenshot 2026-10-30 095702" src="https://github.com/user-attachments/assets/5e697802-c600-4462-84c7-23a6e00c54fe" />
+
 
 egrep l{2} newfile
 ## OUTPUT
 
-<img width="626" height="51" alt="Screenshot 2026-10-30 095702" src="https://github.com/user-attachments/assets/5e697802-c600-4462-84c7-23a6e00c54fe" />
 
 
 egrep 's{1,2}' newfile
@@ -443,9 +443,9 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-<img width="610" height="47" alt="Screenshot 2026-10-30 104832" src="https://github.com/user-attachments/assets/4c1feb41-5800-496c-a006-d78ab22d5114" />
 
- 
+ <img width="610" height="47" alt="Screenshot 2026-10-30 104832" src="https://github.com/user-attachments/assets/931af32c-2150-45ab-8163-1daa087a0b5a" />
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -456,8 +456,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-<img width="563" height="85" alt="Screenshot 2026-10-30 104905" src="https://github.com/user-attachments/assets/b041c833-6eb0-4352-a771-abc2534db3c6" />
 
+<img width="563" height="85" alt="Screenshot 2026-10-30 104905" src="https://github.com/user-attachments/assets/c212feaf-f53b-46c3-992a-ba9daae2f90c" />
 
 cat < scriptest.sh 
 ```bash
@@ -495,30 +495,34 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-<img width="836" height="318" alt="Screenshot 2026-10-30 105201" src="https://github.com/user-attachments/assets/f655c46d-d153-4fc7-acd5-dd22b91b3f57" />
+<img width="836" height="318" alt="Screenshot 2026-10-30 105201" src="https://github.com/user-attachments/assets/7eec3233-e17d-41b9-b991-f62eedbcce65" />
+
 
  
 ls file1
 ## OUTPUT
-<img width="475" height="50" alt="Screenshot 2026-10-30 105214" src="https://github.com/user-attachments/assets/8f4da74c-5d79-4188-a2fb-b0ffe79d85b2" />
+
+<img width="475" height="50" alt="Screenshot 2026-10-30 105214" src="https://github.com/user-attachments/assets/0c93a416-4e30-4a32-b385-409fe1a20eeb" />
 
 echo $?
 ## OUTPUT 
-<img width="458" height="47" alt="Screenshot 2026-10-30 105227" src="https://github.com/user-attachments/assets/a3af5f14-3bda-4305-9eac-f230410d888d" />
+
+<img width="458" height="47" alt="Screenshot 2026-10-30 105227" src="https://github.com/user-attachments/assets/dc18a3bb-7b29-453a-b24f-276309499974" />
 
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- <img width="776" height="112" alt="Screenshot 2026-10-30 105301" src="https://github.com/user-attachments/assets/16369600-81e0-474e-b6ae-f079268e1d74" />
+<img width="776" height="112" alt="Screenshot 2026-10-30 105301" src="https://github.com/user-attachments/assets/75fa258e-29ed-47fe-a039-a3ffca505bfd" />
 
 abcd
  
 echo $?
  ## OUTPUT
+<img width="497" height="92" alt="Screenshot 2026-10-30 105343" src="https://github.com/user-attachments/assets/c012b888-1b89-4d74-8d3e-5adbfb76755a" />
 
-<img width="497" height="92" alt="Screenshot 2026-10-30 105343" src="https://github.com/user-attachments/assets/34296706-57fb-4c3d-ad1b-6fcb5b7b6558" />
+
 
  
 # mis-using string comparisons
@@ -552,13 +556,13 @@ fi
 ##OUTPUT
 
 
-<img width="777" height="65" alt="Screenshot 2026-10-30 110026" src="https://github.com/user-attachments/assets/a715b40f-9435-49fd-bf4a-a2b9a898a36e" />
+
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-<img width="533" height="62" alt="Screenshot 2026-10-31 083957" src="https://github.com/user-attachments/assets/bda07eb8-ab55-41ea-b149-5a00f9a34ba7" />
+
 
 
 # check file ownership
@@ -586,7 +590,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-<img width="685" height="96" alt="Screenshot 2026-10-31 084413" src="https://github.com/user-attachments/assets/fec2133b-8989-4c0d-8553-1d1f28a21c76" />
+<img width="610" height="47" alt="Screenshot 2026-10-30 104832" src="https://github.com/user-attachments/assets/f8e88bad-dc9c-407c-bbbb-98d09d44f4c9" />
+
 
 # check if with file location
 cat>ifnested.sh 
