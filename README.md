@@ -2,7 +2,7 @@
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
-## NAME:SHREENIDHI S
+## NAME:SHREENIDHI S 
 ## REG NO:212225040410
 # AIM:
 To practice Linux Commands and Shell Scripting
